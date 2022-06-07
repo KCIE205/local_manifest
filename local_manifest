@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<remote  name="s" fetch="https://github.com/01soni247" />
+	<remote  name="r9" fetch="https://github.com/Redmi-MT6768" />
+  <remote  name="c9" fetch="https://github.com/SwiftOS-DEVICES" />
+  <remote  name="c9" fetch="" />
+        <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="r" revision="kscope"/>
+        <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="c9" revision="12.1"/>
+        <project path="kernel/xiaomi/mt6768" name="01soni247/MT6768-JRE205" remote="s" revision="twelve"/>
+        <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="r9" revision="twelve"/>
+        <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="r9" revision="twelve"/>
+</manifest>
