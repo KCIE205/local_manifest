@@ -6,7 +6,7 @@
 	<remote  name="c9" fetch="https://github.com/SwiftOS-DEVICES" />
 	<remote  name="p9" fetch="https://github.com/PixelExperience" />
 	<remote  name="S9" fetch="https://github.com/KCIE205" />
-        <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="r" revision="lineage-19.1"/>
+        <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="S9" revision="lineage-19.1"/>
         <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="c9" revision="12.1"/>
         <project path="kernel/xiaomi/mt6768" name="MT6768-JRE205" remote="s" revision="twelve"/>
         <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="r9" revision="twelve"/>
